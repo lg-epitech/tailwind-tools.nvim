@@ -144,7 +144,7 @@ M.setup = function(server_config, lspconfig)
     dynamicRegistration = true,
   }
 
-  lspconfig.tailwindcss.setup(conf)
+  vim.lsp.setup("tailwindcss", conf)
 end
 
 ---@type fun(lspconfig: any)
